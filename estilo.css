@@ -1,0 +1,102 @@
+.body {
+    margin: 0px;
+}
+
+.todo {
+    background-image: url(assets/img/fondotodo.png);
+    background-size: cover;
+    margin: 0px;
+    padding-bottom: 200px;
+}
+
+.cuerpo {
+    background-image: url(assets/img/bloquefondotexto.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.logo {
+    padding-left: 480px;
+    background-image: url(assets/img/publicofest.jpg);
+    background-size: cover;
+    background-attachment:inherit;
+    box-shadow: 4px 8px 10px white;
+}
+
+.título {
+    font-family: 'Franklin Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(44, 131, 158);
+    margin: 0px auto;
+    width: 700px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 2px 2px rgb(251, 241, 255);
+}
+
+.collage1 {
+    padding-left: 340px;
+}
+
+.sub {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 13px;
+    color: rgb(44, 131, 158);
+    margin: 0px auto;
+    width: 700px;
+    align-content: center;
+    text-align: center;
+}
+
+.párrafo {
+    font-family: 'Franklin Gothic';
+    font-weight: lighter;
+    color: rgb(30, 65, 95);
+    margin: 0px auto;
+    width: 500px;
+    align-content: center;
+    text-align: justify;
+}
+
+.imghorarios {
+    padding: 20px;
+    padding-left: 242px;
+    margin: 0px auto;
+    size: auto;
+}
+
+.imgescenarios {
+    padding: 20px 400px;
+    margin: 0px auto;
+    size: auto;
+}
+
+.imgaleria {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.imgaleria {
+    grid-column: span 2;
+    height: 300px;
+    size: 300px;
+    transition: 0.5s filter;
+}
+
+.imgaleria:hover {
+    filter: brightness(1);
+}
+
+.galeria {
+    width: 50%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap: 2rem;
+}
